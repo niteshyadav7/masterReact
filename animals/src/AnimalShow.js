@@ -1,11 +1,5 @@
 
-
-function AnimalShow (props) {
-  const type=props.type
-  return (
-    <div>
-      <div>{type}</div>
-    </div>
-  )
+function AnimalShow ({type}){
+  return <div>{type}</div>
 }
 export default AnimalShow
