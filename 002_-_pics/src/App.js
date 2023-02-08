@@ -1,5 +1,13 @@
+import SearchBar from "./components/SearchBar";
+
+
 function App() {
-  return <div>App</div>;
+  const handleClick =(term) =>{
+    console.log("click",term);
+  }
+  return (
+    <SearchBar onSubmit={handleClick}/>
+  )
 }
 
 export default App;
