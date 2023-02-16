@@ -1,15 +1,9 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-import App from "./App"
+import './index.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
+const el = document.getElementById('root');
+const root = ReactDOM.createRoot(el);
 
-// searchImages();
-
-
-const ele =document.getElementById('root')
-const root =ReactDOM.createRoot(ele)
-
-root.render(<App />)
-
-
-
+root.render(<App />);
